@@ -29,7 +29,7 @@
   .header .form__header form button {
     width: 80%;
   }
-  .about__content, .sale__content, .forhouse__conten, .testimoil__content, .footer__content {
+  .about__content, .sale__content, .forhouse__content, .testimoil__content, .footer__content {
     grid-template-columns: 1fr;
   }
   .price_content {
