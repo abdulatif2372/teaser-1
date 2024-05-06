@@ -13,16 +13,16 @@
                 color: white;
             }
         }
-        .form_header{
-            margin: 2rem;
-            margin-bottom: 2rem;
+        .form__header{
+            // margin: 2rem;
+            // margin-bottom: 2rem;
             width: 80%;
             height: 100%;
-            form {
-                height: 100%;
-                display: flex;
-                align-items: center;
-                gap: 1rem;
+            margin: 0 auto;
+            margin-top: 2rem;
+                  form {
+                //    justify-content: center;
+                flex-direction: column;
                 input {
                     width: 90%;
                   }
@@ -32,7 +32,7 @@
             }
         }
     }
-    .about_content, .sale_content,.forhouse__conten,.testimoil_content,.footer_content {
+    .about__content, .sale__content, .forhouse__conten, .testimoil__content, .footer__content {
         grid-template-columns: 1fr;
     }
         .price_content{

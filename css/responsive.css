@@ -14,25 +14,22 @@
   .header .banner p {
     color: white;
   }
-  .header .form_header {
-    margin: 2rem;
-    margin-bottom: 2rem;
+  .header .form__header {
     width: 80%;
     height: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
   }
-  .header .form_header form {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  .header .form__header form {
+    flex-direction: column;
   }
-  .header .form_header form input {
+  .header .form__header form input {
     width: 90%;
   }
-  .header .form_header form button {
+  .header .form__header form button {
     width: 80%;
   }
-  .about_content, .sale_content, .forhouse__conten, .testimoil_content, .footer_content {
+  .about__content, .sale__content, .forhouse__conten, .testimoil__content, .footer__content {
     grid-template-columns: 1fr;
   }
   .price_content {
